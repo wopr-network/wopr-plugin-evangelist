@@ -178,5 +178,7 @@ const plugin: WOPRPlugin = {
 
 export default plugin;
 
-// Suppress unused variable warning — scheduler is used at runtime
-void (scheduler satisfies ContentScheduler | null);
+/** Returns the active scheduler instance (null if plugin is not initialized). */
+export function getScheduler(): ContentScheduler | null {
+  return scheduler;
+}
