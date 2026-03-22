@@ -16,7 +16,7 @@
     "check": "biome check --config-path=. src/ && tsc --noEmit",
     "test": "vitest run"
   },
-  "keywords": ["wopr", "plugin", "superpower", "marketing", "evangelist", "content"],
+  "keywords": ["wopr", "wopr-plugin", "plugin", "superpower", "marketing", "evangelist", "content"],
   "author": "WOPR",
   "license": "MIT",
   "dependencies": {
